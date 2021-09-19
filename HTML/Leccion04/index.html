@@ -6,25 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas en HTML</title>
     <link rel="stylesheet" href="/HTML/Leccion04/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
 </head>
 <body>
     <table>
+        <caption>Listado de Personas</caption>
         <tr>
-            <th colspan="2">Nombre</th>
-            <!--<th>Apellido</th>-->
+            <th>Nombre</th>
+            <th>Apellido</th>
             <th>Email</th>
         </tr>
         <tr>
             <td>Juan</td>
             <td>Perez</td>
-            <td rowspan="2">juanperez@mail.com</td>
+            <td>juanperez@mail.com</td>
 
         </tr>
         <tr>
             <td>Maria</td>
             <td>Lara</td>
-            <!--<td>mlara@mail.com</td>-->
-
+            <td>mlara@mail.com</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Juarez</td>
+            <td>cjuarez.com</td>
+        </tr>
+        <tr>
+            <td>Carla</td>
+            <td>Esparza</td>
+            <td>cesparza.com</td>
         </tr>
     </table>
 </body>
