@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Formularios en HTML</h1>
-    <form method="POST">
+    <form method="GET">
         <label for="nombre">Nombre: </label><br>
         <input type="text" id="nombre" name="nombre" placeholder="Escribe tu Nombre" 
         required="true"><br>
@@ -22,7 +22,20 @@
 
         <label for="edad">Edad: </label><br/>
         <input type="number" id="edad" name="edad"/><br/>
-        
+
+        <label>Genero</label><br/>
+        <input type="radio" id="femenino" name="genero" value="femenino"/>
+        <label for="femenino">Femenimo</label><br/>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br/>
+
+        <label>Genero Musica Favorita</label><br/>
+        <input type="checkbox" id="clasica" name="musica" value="clasica">
+        <label for="clasica">Misica Clasica</label><br/>
+        <input type="checkbox" id="rock" name="musica" value="rock">
+        <label for="rock">Rock and Roll</label><br/>
+
+
         <input type="submit" value="Enviar"><br>
     </form>
 </body>
